@@ -1,9 +1,8 @@
 <template>
  <div class="about">
-
-  <Finder ></Finder>
-
-   
+  <div class="container">
+    <Finder ></Finder>
+  </div>
   </div>
   
 </template>
