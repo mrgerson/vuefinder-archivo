@@ -1,5 +1,24 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+ <div class="about">
+
+  <Finder ></Finder>
+
+   
   </div>
+  
 </template>
+
+<script>
+import Finder from '../Finder.vue';
+export default {
+
+  components:{
+    Finder,
+}
+
+}
+</script>
+
+<style>
+
+</style>
